@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+<link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+Garamond:wght@500&family=Hanuman&family=Montserrat:ital@1&family=Nunito&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   
+    
+    <style> 
+        
+        .link {
+           color: black;
+            text-decoration: none;
+       }
+        
+        .link:hover {
+            color: #f2bac3;
+            text-decoration: underline;
+        }
+        
+        .link1 {
+            color: #f2bac3;
+            text-decoration: underline;
+        }
+        
+        .link1:hover {
+            color: floralwhite;
+            text-decoration:underline;
+        }
+        
+    body {
+        align-content: center;
+        background-color: black;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/562b8384-df7b-47b5-af16-8ef504887c69/davyzq9-39a13c50-c7f0-4a9f-a712-58b3704dc213.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTYyYjgzODQtZGY3Yi00N2I1LWFmMTYtOGVmNTA0ODg3YzY5XC9kYXZ5enE5LTM5YTEzYzUwLWM3ZjAtNGE5Zi1hNzEyLTU4YjM3MDRkYzIxMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ymhup_4jWpS6iQqRcEJf71ndepnkwaL8qATVkzZZAs8); 
+}
+        
+        .introimg {
+            height: 100%; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            transition: 2s ease;
+        }
+        
+        .introimg:hover {
+           transform: scale(1.25);
+            padding-bottom: 80px;
+        }
+        
+        h1 {
+            font-size: 50px;
+            color: #ffe4e4;
+            margin: 10px 20px 10px 20px;
+        }
+        
+        .header {
+            margin: auto;
+            padding: auto;
+            text-align: center;
+            background-color: black;
+        }
+        
+      .navbar {
+            height: 59px;
+            }
+        
+        
+               ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#a7001b;
+  top: 0;
+}
+                                                     @media (max-width:450px) {
+                                                         ul {
+                                                             align-content: center;
+                                                             align-items: center;
+                                                             text-align: center;
+                                                             
+                                                         }
+            
+                                                                 }
+                li {
+                    float: left;
+                    background-color:#a7001b ;
+}
+
+        li a {
+    
+  display: block;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 2px 4px 2px 4px;
+  transition:all 0.4s ease;
+  
+}
+                                                         @media (max-width:450px) {
+                                                             li a {
+                                                                 font-size: 15px;
+                                                                 padding: 5px 5px;
+                                                             }
+            
+        }
+        
+li a:hover {
+  background-color: #de4d65;
+    color:#f2bac3;
+    text-decoration: underline;
+    
+  
+}
+        
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 140%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+        
+     
+        .icon {
+            display: block;
+            padding: 17px 20px;
+            display:inline-flex;
+            flex-flow: row wrap; 
+            transition-duration: 0.4s;
+            background-color: #a7001b;
+              margin: 2px 4px 2px 4px;
+        }
+                                                      @media (max-width: 450px) {
+                                                  .icon {
+                                                     width: 20%;
+                                                     height: 20%;
+                                                     
+                                                       }
+                                                          } 
+        
+        .icon:hover {
+             background-color: #de4d65;
+        }
+        
+      
+             .mycontainer {
+  position:relative;
+  text-align: center;
+ align-self: center;
+}
+        
+             .slide{
+    
+  width: 660px;
+  flex-shrink: 0;
+  height: 400px;
+  align-content: center;
+  padding:20px 20px 20px 20px;
+}
+                                                @media (max-width: 450px) {
+                                                      .slide{
+                                                     width: 290px;
+                                                       flex-shrink: 0;
+                                                      height: 270px;
+                                                     align-content: center;
+                                                    padding:1px 3px 1px 3px;
+                                                        }  }
+          .slider {
+  width: 3500px;
+  height: 500px;
+  display: flex;
+  overflow-x: auto;
+  align-content: center;
+              border: 5px solid #a74c4c;
+              transition: all 0.8s ease;
+              
+}                   
+                                                      @media (max-width: 450px) {
+                                                .slider {
+                                                    height: 280px;
+                                                    width: 300px;
+                                                    align-content: center;
+                                                    margin-left: 10px;
+                                                }
+                                                      }
+        
+        .slider:hover {
+            transform: scale(1.1)
+        }
+        
+        
+              .slides > div:target {
+  transform: scale(0.8);
+}
+   
+        .slidertxt {
+            font-size: 50px;
+            color: #ffe4e4;
+            margin: 10px 0 10px 0;
+            text-align: center;
+        }
+                                              @media (max-width:450px) {
+                                                  .slidertxt {
+                                                      font-size: 20px;
+                                                  }
+            
+                                                     }
+        .flex-container {
+            display: inline-flex;
+            flex-flow: column;
+        }
+        
+        
+       /*text over image*/
+        
+       .container {
+  position: relative; 
+  max-width: 700px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+} 
+                                              @media (max-width:450px) {
+                                                  .container .content {
+                                                      width: 85%;
+                                                      
+                                                  }
+            
+        }
+       
+        .cast {
+            height: 320px;
+            width: 180px; 
+            border: 3px solid #712f2f ; 
+            background-color: black; 
+            margin-top: 20px; 
+            margin-left: 90px; 
+            padding: 10px;
+            transition: all 1s ease;
+            
+        }
+        
+        .cast:hover {
+           transform: scale(1.3);
+            box-shadow: 10px;
+            margin: 50px 50px 50px 50px;
+        }
+        
+        .castimg {
+           height: 230px; 
+            width: 150px; 
+            border: 3px solid #712f2f; font-size: 20px;
+            padding: 10px 10px 10px 10px; margin: 4px;
+           
+        }
+        
+        
+        .spinoff {
+            font-family: 'Nunito', sans-serif;
+            background-color: #a35b43;
+            padding: 50px 10px 10px 10px;
+            align-self: center;
+            transition: 1s ease;
+            display: grid;
+            height: 70%;
+            width: 70%;
+            align-content: center;
+            align-items: center;
+        }
+        
+        .spinoff:hover {
+          transform: scale(1.1);  
+        }
+     
+        
+        .ftxt {
+            color: #f2cfd5; 
+            text-align: center;
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+        }
+        
+                                                      @media (max-width:450px) {
+                                                          .ftxt {
+                                                              font-size: 20px;
+                                                          }
+        }
+        
+        
+        button {
+                           background-color: #f2bac3;
+                            color: #8e434f;
+                            padding: 14px 20px;
+                             margin-bottom: 40px;
+                            
+                           position: relative;
+                             right: 40%;
+                             left: 40%;
+            
+                               border: none;
+                            cursor: pointer;
+                            width: 20%;
+                            font-family: 'Poppins', sans-serif;
+                           border-radius: 25px;
+                              border: 2px solid #c76161; 
+        }
+        
+                                                       @media (max-width:450px) {
+                                                           button {
+                                                               width: 50%;
+                                                               position: relative;
+                                                               right: 25%;
+                                                               left: 25%
+                                                              
+                                                           }
+                                                      
+        }
+        
+        input {
+            text-align: center;
+                          background-color: #edcccc;
+                          width: 50%;
+                          padding:12px 20px;
+                          position: relative;
+                          right: 25%;
+                          left: 25%;
+                          margin-bottom: 20px;
+                          border-top: transparent;
+                          border-right: transparent;
+                          border-left: transparent;
+                          border-bottom : 3px solid #c76161;
+                          box-sizing: border-box;
+                          font-size: 15px;
+        }              
+        
+                                                          @media (max-width:450px) {
+                                                              input {
+                                                              font-size: 12px;
+                                                                  
+                                                              
+                                                              }
+        }
+        
+        
+    </style>
+    
+    <header>
+     <div class="header">
+       <h1 style="font-family: 'Amatic SC', cursive;"> The Vampire Diaries Official Website</h1>
+            
+        </div>
+        
+        
+        
+        <nav>
+         <ul style="font-family: 'Poppins', sans-serif;">
+        <b>
+  <li>
+      <div class="tooltip">
+      <a class="link" href="index.html">Home</a>
+          <span class="tooltiptext">Homepage
+          </span>
+      </div>
+          </li>
+            
+            
+   <li>
+      <div class="tooltip">
+      <a class="link" href="index.html">Seasons</a>
+          <span class="tooltiptext">View All
+          </span>
+      </div>
+          </li>
+            
+            
+             <li>
+      <div class="tooltip">
+      <a class="link" href="index.html">Episodes</a>
+          <span class="tooltiptext">Read More 
+          </span>
+      </div>
+          </li>
+            
+            
+   <li>
+      <div class="tooltip">
+      <a class="link" href="index.html">Characters</a>
+          <span class="tooltiptext">Read More 
+          </span>
+      </div>
+          </li>
+  <li>
+      <div class="tooltip">
+      <a class="link" href="index.html">Merch</a>
+          <span class="tooltiptext">Theme Shop
+          </span>
+      </div>
+          </li>
+            
+            
+              <li>
+      <div class="tooltip">
+      <a class="link" href="register.html">Register</a>
+          <span class="tooltiptext">Register to shop
+          </span>
+      </div>
+          </li>
+  
+        
+            
+             <li>
+      <div class="tooltip">
+      <img class="icon li" src="https://img.icons8.com/material-rounded/24/000000/guest-male.png"/>
+          <span class="tooltiptext">Account
+          </span>
+      </div>
+          </li>
+            
+        
+              <li>
+      <div class="tooltip">
+      <img class="icon li" src="https://img.icons8.com/android/24/000000/search.png"/>
+          <span class="tooltiptext">Search
+          </span>
+      </div>
+          </li>
+            
+            
+              <li>
+      <div class="tooltip">
+       <img class="icon li" src="https://img.icons8.com/android/24/000000/more.png"/>
+          <span class="tooltiptext">More
+          </span>
+      </div>
+          </li>
+            
+             </b>
+            </ul>
+        </nav>
+    </header>
+      
+    <body>
+        <div style="background-color: black; align-content: center; align-self: center; align-items: center;" >
+            <hr>
+            <h2 style="font-size: 42px; font-family: 'Cormorant Garamond', serif; text-align: center; color: salmon; padding-top:10px; padding-bottom: 10px;"><strong>Welcome To TVD World</strong> <hr></h2>
+            
+            <img class="introimg"  src="https://vampirediariesonline.com/wp-content/uploads/2010/10/vampire-diaries-season-2-promotional-photo-19.jpg">
+            
+            <h5 style="color: lightsalmon; font-family: 'Poppins', sans-serif; font-size: 25px; text-align:left; padding-left: 20px; padding-top:0px; padding-bottom: 10px;">
+                
+               
+                The lives, loves, dangers and disasters in the town, Mystic Falls, Virginia. Creatures of unspeakable horror lurk beneath this town as a teenage girl is suddenly torn between two vampire brothers.
+                
+                             </h5>
+                                         </div>
+        
+        <div style="padding: 8px 0px 8px ; font-family: 'Nunito', sans-serif; text-align: center; background-color:#461212;  color: #f2bac3; font-size: 25px ">
+            <h2>Stream Now on the<a class="link1" href="https://www.cwtv.com/thecw/the-cw-app"> CW App! </a></h2>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <hr>
+
+        
+            <div  style="text-align: center; font-size: 30px; font-family: 'Montserrat', sans-serif; padding-top: 20px; padding-bottom: 10px; color: whitesmoke; background-color: black;" >
+                      <strong>Seasons</strong></div>
+    
+        <hr>
+        
+        
+            <div style="background-color:transparent; align-content: center;">
+           
+       <h5 style= "font-family: sans-serif; 
+            font-size: 20px;
+            color: #ffebeb;
+            text-align: center;">(Swipe for more)</h5>
+        
+       
+        <div style="background-color: #7b1818; margin-top: 20px;" class="slider container mycontainer">
+            
+           <div>    
+           
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/70eac2fff85a0848df5f745cc48f79fa2433542f15759aba9d010af6a18ba56d._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The First Season</p>
+    <p style="font-family: 'Nunito', sans-serif; text-align: center;">Love Sucks</p>
+  </div>
+            </div>
+            
+            <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/8ddb5fbead08de5fa7f86e09edda9a323e54d33ed891963fb5c0fdefa7ac2ef4._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Second Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">The year of the Kat</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/e5b21b822588b8d7c26ee747047e6c4700f80ccc029cf2426a95f0656fe778df._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Third Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">The Year of the Originals</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/dbf80f02dac453882b2061645b5bd721274f11b4e474b30f825a33d48d7bf3f4._UY500_UX667_RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Fourth Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">The Year of Transition</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a8bf4dccf437316b78e5d75aa53c504a7167c2e386eed8553acd0b85dc379c45._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Fifth Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">The Year of the Dopplegänger</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/549197ae58fcaef79d5c429982c787260a8f341d3715546b0133a988e448e5dc._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Sixth Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">All Spell Breaks Loose</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/eca85ac5de4246a023c522a5090414a4c5a9c6cacc0120a38681db0306d30596._UY500_UX667_RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Seventh Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">Heartbreak Is Eternal</p>
+  </div>
+            </div>
+            
+             <div>
+            
+            <img class="slide" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/48787df9ae43f1161f0239515eb824ebe6246334f06cb9d92f24367f823c1571._RI_V_TTW_.jpg">
+            <div class="content">
+    <p class="slidertxt" style="font-family: 'Montserrat', sans-serif">The Eighth Season</p>
+    <p style="font-family: 'Nunito', sans-serif;">The End Awakens</p>
+  </div>
+            </div>
+          
+             </div>
+            
+               </div>  
+        
+           
+        
+        <br>
+        <br>
+        
+        <div style="text-align: center; font-family: 'Nunito', sans-serif; background-color: #8e434f; color:#edcccc; padding: 4px 0px 4px 0px;">
+            <h2> 7.7/10 Star Rating on <a class="link1"  href="https://www.imdb.com/title/tt1405406/">IMDb.com </a></h2>
+        </div>
+        
+        <br>
+        
+        
+           <br>
+        
+        <hr>
+    
+        
+            <div  style="text-align: center; font-size: 30px; font-family: 'Montserrat', sans-serif; padding-top: 20px; padding-bottom: 10px; color: whitesmoke; background-color: black;" >
+                      <strong style="font-size: 30px; font-family: 'Montserrat', sans-serif;">Cast</strong></div>
+    
+        <hr>
+        <br>
+        
+        
+               <div class=" cast flex-container">
+        
+            <div>
+                
+                <a class="link" href="https://en.wikipedia.org/wiki/Ian_Somerhalder">
+                 <img class="castimg" src="https://i.pinimg.com/originals/86/11/4c/86114cc5b24ea514497cee81c2d7bcf4.jpg">
+                    
+                    <h4 style="font-family: 'Nunito', sans-serif; color: #ff9a9a; text-align: center;">Ian Somerhalder/Damon Salvatore</h4></a>
+            </div>
+                 </div>
+                
+        
+        <div class=" cast flex-container">
+        
+            <div>
+                <a class="link"  href="https://en.wikipedia.org/wiki/Nina_Dobrev">
+              <img class="castimg"
+                 src="https://celebmafia.com/wp-content/uploads/2014/03/nina-dobrev-the-vampire-diaries-tv-series-season-5-promo-photos_4.jpg">
+                 <h4 style="font-family: 'Nunito', sans-serif; color: #ff9a9a; text-align: center;">Nina Dobrev/Elena Gilbert</h4>
+                </a>
+            </div>
+                 </div>
+        
+        
+         <div class=" cast flex-container">
+        
+            <div>
+                <a class="link" href="https://en.wikipedia.org/wiki/Paul_Wesley">
+              <img class="castimg"
+                 src="https://stocklandmartelblog.files.wordpress.com/2013/10/nino-munoz_vampire-diaries-10.jpg">
+                    <h4 style="font-family: 'Nunito', sans-serif; color: #ff9a9a; text-align: center;">Paul Wesley/Stefan Salvatore</h4></a>
+            </div>
+                 </div>
+        
+        
+          <div class=" cast flex-container">
+        
+            <div>
+                <a class="link"  href="https://en.wikipedia.org/wiki/Candice_Accola">
+              <img class="castimg"
+                 src="https://i.pinimg.com/originals/5f/2e/64/5f2e64c4fa169fa96e82005c4b8cb4c9.jpg">
+                    <h4 style="font-family: 'Nunito', sans-serif;color: #ff9a9a; text-align: center;">Candice Accola/Caroline Forbes</h4></a>
+            </div>
+                 </div>
+        
+        
+          <div class=" cast flex-container">
+        
+            <div>
+                <a class="link" href="https://en.wikipedia.org/wiki/Kat_Graham">
+              <img class="castimg"  src="https://i.pinimg.com/originals/e8/de/46/e8de46236c5062336a848e87b7ed032d.jpg">
+                    <h4 style="font-family: 'Nunito', sans-serif; color: #ff9a9a; text-align: center;">Kat Graham/Bonnie Bennet</h4></a>
+            </div>
+                 </div>
+        
+          <div class=" cast flex-container">
+        
+            <div>
+                <a class="link" href="https://en.wikipedia.org/wiki/Zach_Roerig">
+              <img class="castimg" src="https://data.whicdn.com/images/79772125/original.jpg">
+                    <h4 style="font-family: 'Nunito', sans-serif; color: #ff9a9a; text-align: center;">Zach Roerig/Matt Donovan</h4></a>
+            </div>
+                 </div>
+       
+        
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div  style="text-align: center; font-size: 30px; font-family: 'Montserrat', sans-serif;padding-top: 20px; padding-bottom: 10px; color: whitesmoke; background-color: black;" >
+                      <strong>Spin-Offs</strong></div>
+        <hr>
+     
+        <br>
+        <br>
+        <br>
+        
+        <div  class="mycontainer">
+            <div class="spinoff" style="margin-left: auto; margin-right: auto;">
+                <a href="https://en.wikipedia.org/wiki/The_Originals_(TV_series)">
+        <img style="height: 70%; width: 70%;" src="https://i.pinimg.com/originals/40/70/3c/40703c899ac3b92ee51387959f90984f.jpg"></a>
+        <h2 class="link" style="font-size: 35px; color: #720000">The Originals</h2>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            <div class="spinoff" style="margin-left: auto; margin-right: auto;">
+                <a href="https://en.wikipedia.org/wiki/Legacies_(TV_series)">
+                    <img style="height: 70%; width: 70%;" src="https://vignette.wikia.nocookie.net/vampirediaries/images/9/95/Legacies-S1-Poster.jpg/revision/latest?cb=20190329032730"></a>
+        <h2 class="link" style="font-size: 35px; color: #720000">Legacies</h2>   
+            </div>
+        </div>
+ </body>
+    
+    
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    <p class="ftxt">www.thevampirediariesofficial.com</p>
+        <hr>
+        <hr>
+    <div style="background-color: #edcccc; margin-bottom: 0;">
+            <p style="font-family: 'Raleway', sans-serif; text-align: center; align-self: center;
+                          align-content: center;
+                          align-items: center; color: #8e434f; font-size: 30px">
+                <br>The Vampire Diaries</p>
+            
+        <p style=" align-self: center;
+                          align-content: center;
+                          align-items: center; font-family: 'Raleway', sans-serif; text-align: center; color: #8e434f; font-size: 20px">
+            Write a Review.
+            </p>
+            
+            <input class="input" type="text" placeholder="Tell us what you love about the show.">
+            <br>
+            
+            <button>Submit</button>
+                    
+            
+           </div>
+        <div style="background-color: #8e434f; margin-top: -30px;  text-align: center; align-self: center; align-content: center;  align-items: center;">
+            <p style="font-family: 'Raleway', sans-serif; text-align: center; align-self: center;
+                          align-content: center;
+                      align-items: center; font-size: 30px; color:#edcccc; margin-top:30px;"><br>Binge Watch TVD Now!</p>
+        
+        <p style=" align-self: center; 
+                          align-content: center;
+                          align-items: center; font-family: 'Raleway', sans-serif; text-align: center; color: #edcccc; font-size: 20px">
+            Available On</p>
+            
+            <img style=" display:inline-flex; flex-flow: row; " src="https://img.icons8.com/color/100/000000/netflix.png"/>
+            <img style=" display:inline-flex; flex-flow: row; " src="https://img.icons8.com/color/80/000000/apple-tv.png"/>
+            <img style=" display:inline-flex; " src="https://img.icons8.com/color/80/000000/amazon.png"/>
+            <br>
+            
+        </div>
+    </footer>
+
+
+</html>
+
+    
